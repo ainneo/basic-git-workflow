@@ -16,4 +16,14 @@
     * When the release is tested and prepped, merge the develop branch into master
     * Tag the master branch commit to the correct version (i.e. v1.1)
     * Repeat
+ 
+ ### Merging Branches
+ * run ```git log --oneline --decorate --graph --all ``` this helps you see all your branches
+ * develop is our main working branch and we will want to merge feature branches back into it
+   * first run ``git branch`` to check which branch your on
+   * if your not on dev, switch to develop branch
+   * then run ```git merge feat2```. (YOU MUST BE ON DEV BRANCH!!! - never master)
+   * after doing this, you will have merged feat2 into develop!
+   * confirm by ``` git branch --merged```
+   * delete feat2 branch ``` git branch -d feat2```
 
