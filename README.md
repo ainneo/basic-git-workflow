@@ -1,1 +1,1 @@
- dev mode: https://ainneo.github.io/basic-git-workflow/.
+ live site: https://ainneo.github.io/basic-git-workflow/.
