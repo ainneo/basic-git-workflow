@@ -20,12 +20,13 @@
  ### Merging Branches Locally 
  * run ```git log --oneline --decorate --graph --all ``` this helps you see all your branches
  * develop is our main working branch and we will want to merge feature branches back into it
-   * first run ``git branch`` to check which branch your on
+   * run ``git branch`` to check which branch your on
    * if your not on dev, switch to develop branch
-   * then run ```git merge feat2```. (YOU MUST BE ON DEV BRANCH!!! - never master)
-   * after doing this, you will have merged feat2 into develop!
-   * confirm by ``` git branch --merged```
+   * run ```git merge feat2```
+   * you have merged feat2 into develop
+   * confirm by ```git branch --merged```
    * delete feat2 branch ``` git branch -d feat2```
    * the branch should now be deleted on your local machine
+   * make sure you are on the main branch...eg be on master to merge dev into master, be on dev to merge feature into dev...
    
 
