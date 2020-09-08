@@ -17,7 +17,7 @@
     * Tag the master branch commit to the correct version (i.e. v1.1)
     * Repeat
  
- ### Merging Branches
+ ### Merging Branches Locally 
  * run ```git log --oneline --decorate --graph --all ``` this helps you see all your branches
  * develop is our main working branch and we will want to merge feature branches back into it
    * first run ``git branch`` to check which branch your on
@@ -26,4 +26,6 @@
    * after doing this, you will have merged feat2 into develop!
    * confirm by ``` git branch --merged```
    * delete feat2 branch ``` git branch -d feat2```
+   * the branch should now be deleted on your local machine
+   
 
