@@ -34,45 +34,26 @@
  ## Creating a Fork
 Whether you're trying to give back to the open source community or collaborating on your own projects, knowing how to properly fork and generate pull requests is essential. Unfortunately, it's quite easy to make mistakes or not know what you should do when you're initially learning the process.
 
-On GitHub page click the "Fork" button, clone your repo or just head straight to the command line:
-```shell
-# Clone your fork to your local machine
-git clone git@github.com:USERNAME/FORKED-PROJECT.git
-```
+Fork repo by clicking for button...
 
 ## Keeping Your Fork Up to Date
 
 While this isn't an absolutely necessary step, if you plan on doing anything more than just a tiny quick fix, you'll want to make sure you keep your fork up to date by tracking the original "upstream" repo that you forked. To do this, you'll need to add a remote:
 
-```shell
-# Add 'upstream' repo to list of remotes
-git remote add upstream https://github.com/UPSTREAM-USER/ORIGINAL-PROJECT.git
+1. Clone your fork:
 
-# Verify the new remote named 'upstream'
-git remote -v
-```
+git clone git@github.com:YOUR-USERNAME/YOUR-FORKED-REPO.git
 
-Whenever you want to update your fork with the latest upstream changes, you'll need to first fetch the upstream repo's branches and latest commits to bring them into your repository:
+2. Add remote from original repository in your forked repository:
 
-```shell
-# Fetch from upstream remote
+cd into/cloned/fork-repo
+git remote add upstream git://github.com/ORIGINAL-DEV-USERNAME/REPO-YOU-FORKED-FROM.git
 git fetch upstream
 
-# View all branches, including those from upstream
-git branch -va
-```
+3. Updating your fork from original repo to keep up with their changes:
 
-Now, checkout your own master branch and merge the upstream repo's master branch:
+git pull upstream master
 
-```shell
-# Checkout your master branch and merge upstream
-git checkout master
-git merge upstream/master
-```
-
-If there are no unique commits on the local master branch, git will simply perform a fast-forward. However, if you have been making changes on master (in the vast majority of cases you probably shouldn't be - [see the next section](#doing-your-work), you may have to deal with conflicts. When doing so, be careful to respect the changes made upstream.
-
-Now, your local master branch is up-to-date with everything modified upstream.
 
 ## Doing Your Work
 
