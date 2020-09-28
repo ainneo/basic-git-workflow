@@ -40,7 +40,7 @@ Fork repo by clicking fork button...
 
 While this isn't an absolutely necessary step, if you plan on doing anything more than just a tiny quick fix, you'll want to make sure you keep your fork up to date by tracking the original "upstream" repo that you forked. To do this, you'll need to add a remote:
 
-1. Clone your fork:
+1. Clone your fork to local:
 
 git clone git@github.com:YOUR-USERNAME/YOUR-FORKED-REPO.git
 
