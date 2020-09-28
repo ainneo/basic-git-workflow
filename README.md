@@ -34,7 +34,7 @@
  ## Creating a Fork
 Whether you're trying to give back to the open source community or collaborating on your own projects, knowing how to properly fork and generate pull requests is essential. Unfortunately, it's quite easy to make mistakes or not know what you should do when you're initially learning the process.
 
-Fork repo by clicking for button...
+Fork repo by clicking fork button...
 
 ## Keeping Your Fork Up to Date
 
@@ -45,11 +45,11 @@ While this isn't an absolutely necessary step, if you plan on doing anything mor
 git clone git@github.com:YOUR-USERNAME/YOUR-FORKED-REPO.git
 
 2. Add remote from original repository in your forked repository:
-
+```
 cd into/cloned/fork-repo
 git remote add upstream git://github.com/ORIGINAL-DEV-USERNAME/REPO-YOU-FORKED-FROM.git
 git fetch upstream
-
+```
 3. Updating your fork from original repo to keep up with their changes:
 
 git pull upstream master
