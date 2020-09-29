@@ -177,9 +177,9 @@ git reset --hard HEAD~1
 -create a new local branch
 -push reset branch to new branch
 -go to remote
-  -change default branch to new branch
-  -delete master branch
-  -rename new branch to master
+-change default branch to new branch
+-delete master branch
+-rename new branch to master
 
    
 
