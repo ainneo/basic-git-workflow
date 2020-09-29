@@ -180,7 +180,11 @@ git reset --hard HEAD~1
 - change default branch(master) to new branch
 - delete master branch on both remote and local
 - rename new branch to master on both remote and local
-- make sure to pull lastest updates from orignally master repo
+- pull lastest updates from orignal master repo
+```
+git pull upstream master 
+```
+- then push to master repo and everything should be up to date
 
    
 
