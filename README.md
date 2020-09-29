@@ -174,12 +174,12 @@ Then you can rename and set the default branch after reset/push. This will clean
 ```
 git reset --hard HEAD~1    
 ```
--create a new local branch
--push reset branch to new branch
--go to remote
--change default branch to new branch
--delete master branch
--rename new branch to master
+- create a new local branch
+- push reset branch to new branch
+- go to remote
+- change default branch to new branch
+- delete master branch
+- rename new branch to master
 
    
 
