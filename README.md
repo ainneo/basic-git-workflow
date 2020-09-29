@@ -165,6 +165,19 @@ git branch -d newfeature
 * [GitHub - Syncing a Fork](https://help.github.com/articles/syncing-a-fork)
 * [GitHub - Checking Out a Pull Request](https://help.github.com/articles/checking-out-pull-requests-locally)
 
+
+##clear history, remove previous commit, undo to master...
+- on branch master revert or go back commits...  ~1 - to as many as you need/check with git log
+```
+git reset --hard HEAD~1    
+```
+-create a new local branch
+-push reset branch to new branch
+-go to remote
+  -change default branch to new branch
+  -delete master branch
+  -rename new branch to master
+
    
 
 
