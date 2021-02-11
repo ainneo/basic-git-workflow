@@ -1,4 +1,4 @@
-## This repository will show you a basic git workflow for individuals or small teams
+# This repository will show you a basic git workflow for individuals or small teams
 <img src="https://miro.medium.com/max/1400/1*cEeZ6LnQdQzDk3kX2fKBYg.jpeg" alt="img" style="height: 50px; width:100px;"/>
 
 ### In this workflow, we have three branches:
@@ -31,7 +31,7 @@
    
    
 
- ## Creating a Fork
+ # Creating a Fork
 Whether you're trying to give back to the open source community or collaborating on your own projects, knowing how to properly fork and generate pull requests is essential.
 
 Fork repo by clicking fork button...
@@ -53,7 +53,6 @@ git fetch upstream
 3. Updating your fork from original repo to keep up with their changes:
 
 git pull upstream master
-
 
 ## Doing Your Work
 
@@ -187,7 +186,7 @@ git pull upstream master
 - then push to master repo and everything should be up to date
 
 
-## Contributing to an exsiting branch
+# Contributing to an exsiting branch
 ![alt text](https://github.com/ainneo/basic-git-workflow/blob/master/contribs-branch.png)
 
    
