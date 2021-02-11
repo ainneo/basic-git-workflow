@@ -186,6 +186,10 @@ git pull upstream master
 ```
 - then push to master repo and everything should be up to date
 
+
+## Contributing to an exsiting branch
+![alt text](http://url/to/img.png)
+
    
 
 
