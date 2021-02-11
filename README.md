@@ -55,7 +55,6 @@ git fetch upstream
 git pull upstream master
 
 ## Doing Your Work
-
 ### Create a Branch
 Whenever you begin work on a new feature or bugfix, it's important that you create a new branch. Not only is it proper git workflow, but it also keeps your changes organized and separated from the master branch so that you can easily submit and manage multiple pull requests for every task you complete.
 
@@ -75,7 +74,6 @@ git checkout newfeature
 Now, go to town hacking away and making whatever changes you want to.
 
 ## Submitting a Pull Request
-
 ### Cleaning Up Your Work
 
 Prior to submitting your pull request, you might want to do a few things to clean up your branch and make it as simple as possible for the original repo's maintainer to test, accept, and merge your work.
@@ -104,11 +102,9 @@ git rebase -i master
 This will open up a text editor where you can specify which commits to squash.
 
 ### Submitting
-
 Once you've committed and pushed all of your changes to GitHub, go to the page for your fork on GitHub, select your development branch, and click the pull request button. If you need to make any adjustments to your pull request, just push the updates to GitHub. Your pull request will automatically track the changes on your development branch and update.
 
 ## Accepting and Merging a Pull Request
-
 Take note that unlike the previous sections which were written from the perspective of someone that created a fork and generated a pull request, this section is written from the perspective of the original repository owner who is handling an incoming pull request. Thus, where the "forker" was referring to the original repository as `upstream`, we're now looking at it as the owner of that original repository and the standard `origin` remote.
 
 ### Checking Out and Testing Pull Requests
@@ -151,7 +147,6 @@ git push origin master
 ```
 
 Now that you're done with the development branch, you're free to delete it.
-
 ```shell
 git branch -d newfeature
 ```
@@ -165,30 +160,6 @@ git branch -d newfeature
 * [GitHub - Checking Out a Pull Request](https://help.github.com/articles/checking-out-pull-requests-locally)
 
 
-## Clear history, remove previous commit, undo to master...
-Here you are basically creating a copy of the master branch before the commits, after reseting...
-Then you can rename and set the default branch after reset/push. This will clean up any unwanted history... 
-
-- on branch master revert or go back commits...  ~1 - to as many as you need/check with git log
-```
-git reset --hard HEAD~1    
-```
-- create a new local branch
-- push reset branch to new branch
-- go to remote
-- change default branch(master) to new branch
-- delete master branch on both remote and local
-- rename new branch to master on both remote and local
-- pull lastest updates from orignal master repo
-```
-git pull upstream master 
-```
-- then push to master repo and everything should be up to date
-
-
 # Contributing to an exsiting branch
 ![alt text](https://github.com/ainneo/basic-git-workflow/blob/master/contribs-branch.png)
-
-   
-
 
