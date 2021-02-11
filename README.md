@@ -188,7 +188,7 @@ git pull upstream master
 
 
 ## Contributing to an exsiting branch
-![alt text](http://url/to/img.png)
+![alt text](https://github.com/ainneo/basic-git-workflow/blob/master/contribs-branch.png)
 
    
 
