@@ -1,4 +1,4 @@
-# This repository will show you a basic git workflow for individuals or small teams
+# A Basic git workflow for individuals or small teams
 <img src="https://miro.medium.com/max/1400/1*cEeZ6LnQdQzDk3kX2fKBYg.jpeg" alt="img" style="height: 100px; width:100px;"/>
 
 ### In this workflow, we have three branches:
