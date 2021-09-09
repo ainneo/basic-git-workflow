@@ -159,7 +159,3 @@ git branch -d newfeature
 * [GitHub - Syncing a Fork](https://help.github.com/articles/syncing-a-fork)
 * [GitHub - Checking Out a Pull Request](https://help.github.com/articles/checking-out-pull-requests-locally)
 
-
-## Contributing to an exsiting branch
-![alt text](https://github.com/ainneo/basic-git-workflow/blob/master/contribs-branch.png)
-
