@@ -32,7 +32,7 @@
    
 
  # Creating a Fork
-Whether you're trying to give back to the open source community or collaborating on your own projects, knowing how to properly fork and generate pull requests is essential.
+Whether you're trying to give back to the open source community or collaborating on your own projects, knowing how to properly fork and generate pull requests is important.
 
 Fork repo by clicking fork button...
 
