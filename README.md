@@ -1,5 +1,5 @@
 # A Basic Git Workflow for Individuals or Small Teams
-<img src="https://miro.medium.com/max/1400/1*cEeZ6LnQdQzDk3kX2fKBYg.jpeg" alt="img" style="height: 300px; width:40px;"/>
+<img src="https://miro.medium.com/max/1400/1*cEeZ6LnQdQzDk3kX2fKBYg.jpeg" alt="img" style="height: 300px; width:400px;"/>
 
 ### In this workflow, we have three branches:
 * Master — This branch will have production code only. In other words, anything you push to the master branch better be free of bugs.
@@ -160,6 +160,6 @@ git branch -d newfeature
 * [GitHub - Checking Out a Pull Request](https://help.github.com/articles/checking-out-pull-requests-locally)
 
 
-# Contributing to an exsiting branch
+## Contributing to an exsiting branch
 ![alt text](https://github.com/ainneo/basic-git-workflow/blob/master/contribs-branch.png)
 
