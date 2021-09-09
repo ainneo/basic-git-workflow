@@ -1,5 +1,5 @@
 # A Basic Git Workflow for Individuals or Small Teams
-<img src="https://miro.medium.com/max/1400/1*cEeZ6LnQdQzDk3kX2fKBYg.jpeg" alt="img" style="height: 100px; width:100px;"/>
+<img src="https://miro.medium.com/max/1400/1*cEeZ6LnQdQzDk3kX2fKBYg.jpeg" alt="img" style="height: 200px; width:100px;"/>
 
 ### In this workflow, we have three branches:
 * Master — This branch will have production code only. In other words, anything you push to the master branch better be free of bugs.
